@@ -1,0 +1,240 @@
+                    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    html {
+                        scroll-behavior: smooth;
+                    }
+                    
+                    .logo {
+                        width: 20%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .logo img {
+                        width: 25%;
+                        border: 3px solid white;
+                        border-radius: 25px;
+                        margin: 2px;
+                    }
+                    
+                    .navbar {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: sticky;
+                        top: 0;
+                        cursor: pointer;
+                    }
+                    
+                    .nav-list {
+                        width: 70%;
+                        display: flex;
+                        align-items: center;
+                    }
+                    
+                    .nav-list li {
+                        list-style: none;
+                        padding: 26px 30px;
+                    }
+                    
+                    .nav-list li a {
+                        text-decoration: none;
+                        color: white;
+                        font-size: 20px;
+                    }
+                    
+                    .nav-list li a:hover {
+                        color: grey;
+                    }
+                    
+                    .rightNav {
+                        width: 30%;
+                        padding: 0 23px;
+                    }
+                    
+                    .box-main {
+                        flex-direction: column-reverse;
+                        max-width: 100%;
+                    }
+                    
+                    #search {
+                        padding: 5px;
+                        font-size: 16px;
+                        border: 2px solid grey;
+                        border-radius: 9px;
+                    }
+                    
+                    .background {
+                        background: rgba(0, 0, 0, 0.7) url('../bckcvr.jpg');
+                        background-size: cover;
+                        background-blend-mode: darken;
+                    }
+                    
+                    .firstSection {
+                        height: 100vh
+                    }
+                    
+                    .box-main {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: white;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        max-width: 50%;
+                        margin: auto;
+                        height: 80%;
+                    }
+                    
+                    .frsthlf {
+                        width: 80%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+                    
+                    .scndhlf {
+                        width: 30%;
+                    }
+                    
+                    .scndhlf img {
+                        width: 70%;
+                        border: 4px solid white;
+                        border-radius: 250px;
+                        display: block;
+                        margin: auto;
+                    }
+                    
+                    .text-big {
+                        font-size: 35px;
+                    }
+                    
+                    .text-small {
+                        font-size: 18px;
+                    }
+                    
+                    .btn {
+                        padding: 8px 20px;
+                        margin: 8px 3px;
+                        /* border: 2px solid; */
+                        border: 2px solid white;
+                        border-radius: 8;
+                        /* font-size: 18px; */
+                        border-radius: 8px;
+                        background: none;
+                        color: white;
+                        cursor: pointer;
+                    }
+                    
+                    .btn-sm {
+                        padding: 6px 10px;
+                        vertical-align: middle;
+                    }
+                    
+                    .btn-dark {
+                        Color: ghostwhite;
+                        border: 2px solid white;
+                        text-size-adjust: auto;
+                    }
+                    
+                    .section {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        max-width: 80%;
+                        margin: auto;
+                        font-family: 'Ubuntu', sans-serif;
+                        background-color: darkgray;
+                        padding: 10px;
+                    }
+                    
+                    .section-Left {
+                        flex-direction: row-reverse;
+                        background-color: dimgrey;
+                    }
+                    
+                    .paras {
+                        padding: 0 65px;
+                    }
+                    
+                    .sectionTag {
+                        padding: 16px 0;
+                    }
+                    
+                    .sectionSubTag {
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    
+                    .thumbnail img {
+                        width: 250px;
+                        border: 2px solid black;
+                        border-radius: 26;
+                        border-radius: 26px;
+                        margin-top: 19px;
+                    }
+                    
+                    .contact {
+                        background-color: rgb(130, 160, 150);
+                        height: 675px;
+                    }
+                    
+                    .text-center {
+                        text-align: center;
+                        padding-top: 30px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        font-size: 35px;
+                        color: azure;
+                    }
+                    
+                    .form {
+                        max-width: 65%;
+                        margin: 42px auto;
+                    }
+                    
+                    .form-input {
+                        width: 100%;
+                        padding: 3px 5px;
+                        font-size: 17px;
+                        border: 2px solid gray;
+                        border-radius: 6px;
+                        margin: 15px 0;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                    
+                    .bckgrnd {
+                        background: rgba(0, 0, 0, 0.7) url('../contact.jpg');
+                        background-size: cover;
+                        background-blend-mode: darken;
+                    }
+                    
+                    .phn-section {
+                        height: 675px;
+                    }
+                    
+                    .text-footer {
+                        text-align: center;
+                        padding: 30px 0;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        display: flex;
+                        justify-content: center;
+                        color: white;
+                    }
+                    
+                    .burger {
+                        display: none;
+                        position: absolute;
+                        cursor: pointer;
+                        right: 5%;
+                        top: 16px;
+                    }
+                    
+                    .line {
+                        width: 33px;
+                        background-color: white;
+                        height: 4px;
+                        margin: 5px 3px;
+                    }
