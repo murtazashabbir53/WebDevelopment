@@ -1,0 +1,6 @@
+!ELEMENT film (series)>
+<!ELEMENT series (name,ratings,genre,director)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT ratings (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
