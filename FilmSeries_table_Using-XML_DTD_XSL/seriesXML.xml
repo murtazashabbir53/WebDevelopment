@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+
+<!DOCTYPE film SYSTEM "seriesDTD.dtd">
+
+
+<?xml-stylesheet type = "text/xsl" href = "/seriesXSL.xsl"?>
+<film> 
+
+  <series>
+    <name>Big Bang Theory</name>
+    <ratings>8.1/10</ratings>
+    <genre>Sitcom</genre>
+    <director>Mark Cendrowski</director>
+  </series>
+
+  <series>
+    <name>Intuition</name>
+    <ratings>5.3/10</ratings>
+    <genre>Drama</genre>
+    <director>Judith Wetson</director>
+  </series>
+
+  <series>
+    <name>Money Heist</name>
+    <ratings>9.4/10</ratings>
+    <genre>Drama</genre>
+    <director>Alex Rodrigo</director>
+  </series>
+
+  <series>
+    <name>Stranger Things</name>
+    <ratings>8.8/10</ratings>
+    <genre>Horror Drama</genre>
+    <director>Matt Duffer</director>
+  </series>
+
+  <series>
+    <name>Friends</name>
+    <ratings>8.9/10</ratings>
+    <genre>Comedy, Romance</genre>
+    <director>James Burrows</director>
+  </series>
+
+</film>
